@@ -30,7 +30,14 @@
 
 
 ### Installation
+    - Assumptions Made:- 
+        - The very near locations for /post_Location end point are the ones lying within 1km of radius/range
+        - map.geojson was provided for uploading for the last /latitude_longitude api.
+       
     To upload data in database use postgres import method for uploading a large csv file.
     Then visit the /addPoint Url to store geometry representation of the data.
     Then use other end-points.
     To run the tests you have to first create a geospatial database with postgis extention enabled, and then run the tests.
+    
+### Extras
+    Pictorial Documentation Is Also Provided for cross Check
